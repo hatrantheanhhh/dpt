@@ -351,4 +351,6 @@ hướng: 1 video có khoảng 100-200 frames, sau đó tính tương quan histo
 để lọc các frame trong cùng 1 cảnh quay, mỗi cảnh quay giữ lại dc ít nhất 1 frame là đủ dùng -> tối ưu tốc độ, nhma chưa biết làm :)
 phải sửa csdl, thêm 1 cột similarity_with_previous_frame để đánh dấu là tương đồng hoặc xóa mẹ frame đó luôn
 có 2 hàm tìm theo histogram là compare_histogram() và search_by_color(), ra kết quả giống nhau nhưng thuật toán của search_by_color oke hơn
+t giải nén các folder chứa frame ra và đổi tên thành vd1, vd2, vd3, 1 đường dẫn cụ thể vào 1 frame là vd1\1\1_frame-002.jpg
+
 '''
