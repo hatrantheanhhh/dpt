@@ -350,4 +350,5 @@ if __name__ == "__main__":
 hướng: 1 video có khoảng 100-200 frames, sau đó tính tương quan histogram 2 frame cạnh nhau, nếu chúng giống nhau 99% thì bỏ bớt 1 cái
 để lọc các frame trong cùng 1 cảnh quay, mỗi cảnh quay giữ lại dc ít nhất 1 frame là đủ dùng -> tối ưu tốc độ, nhma chưa biết làm :)
 phải sửa csdl, thêm 1 cột similarity_with_previous_frame để đánh dấu là tương đồng hoặc xóa mẹ frame đó luôn
+có 2 hàm tìm theo histogram là compare_histogram() và search_by_color(), ra kết quả giống nhau nhưng thuật toán của search_by_color oke hơn
 '''
