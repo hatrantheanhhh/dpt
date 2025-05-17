@@ -2,7 +2,7 @@ Mn clone về máy và chạy file timkiem.py nhé
 
 Bước 1: Thêm 3 cột mới vào csdl: hog_vector, hist_vector, removed
 Mà tải luôn file db mới nè, link Drive: https://drive.google.com/file/d/100CoNxpVwJOu5jZXJrDZhqLFKwkd2F-W/view?usp=sharing
-Database này mới chỉ chứa vector đặc trưng của 10 video đầu, chỉ cần các cột id, video_name, frame_name, hog_feature, hist_feature, removed, các cột còn lại mình không sử dụng.
+Database này mới chỉ chứa vector đặc trưng của 10 video đầu, chỉ cần các cột id, video_name, frame_name, color_histogram, hog_feature, hist_feature, removed, các cột còn lại mình không sử dụng.
 
 Bước 2: clone các file code timkiem, remove_frame, tach5, (có cả file search.py nhma bản cũ r nên giờ k cần dùng đến) về cùng 1 folder có chứa db và các folder chứa frame, chạy file timkiem.py
 
