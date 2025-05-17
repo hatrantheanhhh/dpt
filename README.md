@@ -12,3 +12,4 @@ VD: có ảnh 1_frame-004.jpg bình thường, ảnh 1_frame-005.jpg bị đen, 
 
 Đảm báo cấu trúc project bao gồm folder chứa các frame với cấu trúc: (sttvideo)\(sttvideo_frame-xxx.jpg) ví dụ "1\1_frame-005.jpg" là frame thứ 5 trong video 1, mỗi folder chứa các frame của chỉ 1 video
 
+Nếu thấy ổn thì t sẽ lắp full 120 video vào r gửi file db mới cho mn
