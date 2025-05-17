@@ -1,7 +1,9 @@
 Mn clone về máy và chạy file timkiem.py nhé
+
 Bước 1: Thêm 3 cột mới vào csdl: hog_vector, hist_vector, removed
 Mà tải luôn file db mới nè, link Drive: https://drive.google.com/file/d/100CoNxpVwJOu5jZXJrDZhqLFKwkd2F-W/view?usp=sharing
 Database này mới chỉ chứa vector đặc trưng của 10 video đầu, chỉ cần các cột id, video_name, frame_name, hog_feature, hist_feature, removed, các cột còn lại mình không sử dụng.
+
 Bước 2: clone 3 file code về cùng 1 thư mục với db và các folder chứa frame, chạy file timkiem.py
 
 Code đang bị lỗi không xử lý dc ảnh đen sì nên mn thêm video vào db thì cắt đầu đuôi nó ra nhé (nếu có hình bị đen)
